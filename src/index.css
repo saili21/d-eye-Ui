@@ -1,0 +1,32 @@
+.homeTabs .nav-tabs {
+    border-bottom: none;
+}
+
+.homeTabs ul > li > a {
+    cursor: pointer;
+    color: #a6aaad !important;
+    background-color: #f8f8f8;
+    border-color: #e9ecef #e9ecef #dee2e6 !important;
+}
+
+.homeTabs ul > li {
+    width: 33.33% ;
+}
+
+.homeTabs ul > li.active {
+    border-top: 2px solid #00b2a9;
+    border-radius: 4px 4px 0 0;
+    /* box-shadow: inset 0px 3px 0px 0px #00b2a9; */
+}
+
+.tooltip{
+    opacity: 200;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.is-active {
+    background-color: #012359;
+}

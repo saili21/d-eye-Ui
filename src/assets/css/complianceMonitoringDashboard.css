@@ -1,0 +1,75 @@
+body
+{
+	background-color:#fff;
+}
+
+.offset {
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.position-relative
+{
+	position:relative;
+}
+.over-text
+{
+	position: absolute;
+    top: -15%;
+    left: 5%;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 5px;
+	font-weight:bold;
+    padding-left:5px;
+    padding-top: 3px;
+}
+/* .form-group textarea
+{
+	border-radius:5px;
+	padding-top:20px;
+	border:1px solid #ccc;
+} */
+.pre-defined-cycle {
+    height: 90px;
+    border:1px solid #ccc;
+	border-radius:5px;
+}
+.pre-defined-cycle div {
+    margin: 10px 0px 0px 10px;
+}
+.pre-defined-cycle div:first-child{
+    margin-top: 20px
+}
+
+.align-style
+{
+	padding-top:15px;
+	clear:both;
+}
+@media (max-width: 800px) {
+	
+.padding-bottom-20
+{
+	padding-bottom:20px;
+}
+.over-text
+{
+    left: 8%;
+}
+
+}
+@media (max-width: 600px) {
+	
+.padding-bottom-20
+{
+	padding-bottom:20px;
+}
+.over-text
+{
+    left: 7%;
+}
+
+}
